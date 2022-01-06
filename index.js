@@ -1,3 +1,39 @@
+
+window.onload = function() {
+	getCovidStats();
+	getVaccine();
+}
+
+function getCovidStats() {
+	fetch('https://corona.lmao.ninja/v2/countries/Ireland')
+	.then((response) => {
+		return response.json();
+	})
+	.then((data)=> {	
+		var d = new Date(data.updated);
+		document.getElementById('updated').innerHTML = 'last updated: '+d;
+		document.getElementById('cases').innerHTML = data.cases;
+		document.getElementById('deaths').innerHTML = data.deaths;	
+		document.getElementById('recovered').innerHTML = data.recovered;		
+	})
+	setTimeout(getCovidStats, 43200000) 
+}
+function getVaccine() {
+	fetch('https://disease.sh/v3/covid-19/vaccine/coverage/countries/Ireland')
+	.then((response) => {
+		return response.json();
+	})
+	.then((data)=> {		
+		var timeline = data.timeline
+		var count =Object.values(timeline).length
+		 console.log(count);
+		 console.log(Object.values(timeline)[count-1])
+		document.getElementById('vaccinated').innerHTML = Object.values(timeline)[count-1];			
+})
+			
+ setTimeout(getVaccine, 43200000) 
+}
+
 const pageDown = document.querySelector('.home__move');
 const pageBack = document.querySelector('.fa-arrow-left');
 const searchSection = document.querySelector('.search');

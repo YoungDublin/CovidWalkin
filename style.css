@@ -1,16 +1,117 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color:#343d46;
+    position: relative;
+    overflow-x: hidden;
   }
-  
-  body {
-    font-family: 'Noto Sans KR', sans-serif;
+
+
+html {
+	height: 100%;
+	width: 100%;
+}
+h1 {	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-align: center;	
+	font-size: 250%;
+	color: white;
+}
+h2 {	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 200%;
+	color: white;
+}
+
+.container{
+	display: flex;
+	justify-content: center;	
+}
+
+img{
+display: inline-block;
+vertical-align: middle; 
+text-align: center;
+ height: 6%;
+ width: 6%;
+ object-fit: contain;
+}
+
+.title {	
+	display: inline-block; 
+	padding-top:9px ;
+    justify-content: center;
+	vertical-align: middle;	
+    text-align: center;
+	color: #c0c5ce;
+  }  
+
+.subtitle {
+	padding: 10px;
+	font-size: 150%;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 110%;
+	font-weight: 500;
+	padding-top: 0%;
+	color: white;
+}
+
+div {
+	padding: 15px;
+}
+
+.card-group{
+	padding-top: 30px;
+	height: 250%;	
+}
+
+ .card-title {
+	text-align: center;	
+}
+
+.card-text {
+	text-align: center;
+	font-size: 120%;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 85%;
+ 	color: gray;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	padding-bottom: 5px;
+}
+.footer {
+	font-family: 'Roboto', sans-serif;
+	bottom: 0;
+	font-size: 100%;
+	padding: 5px;
+} 
+
+   body {
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -0.04em;
   }
   
   button,
   select {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family:'Roboto', sans-serif;
     letter-spacing: -0.04em;
     padding: 8px 12px;
     font-size: 14px;
@@ -19,7 +120,6 @@
   /* home */
   .home {
     height: 100vh;
-    background-color: #d9f0ff;
     color: #0e0e52;
   }
   
