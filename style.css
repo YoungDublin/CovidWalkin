@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.04em;
+  }
+  
+  button,
+  select {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.04em;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  /* home */
+  .home {
+    height: 100vh;
+    background-color: #d9f0ff;
+    color: #0e0e52;
+  }
+  
+  .home .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .division {
+    width: 50px;
+    height: 2px;
+    margin: 60px 0;
+    background-color: #d1d1d1;
+    animation: show 1200ms 100ms;
+  }
+  
+  .home__move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    animation: show 1400ms 100ms;
+    cursor: pointer;
+  }
+  
+  .double-down {
+    transform: translateY(10px);
+    animation: move 700ms 100ms infinite alternate;
+  }
+  
+  /* search */
+  .search {
+    height: 100vh;
+    background-color: #d9f0ff;
+  }
+  
+  .search .container {
+    height: 100%;
+  }
+  
+  .search__title {
+    padding: 12px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    color: #0e0e52;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .fa-arrow-left {
+    margin-right: 8px;
+  }
+  
+  .search__form {
+    margin: 0 20px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search__option {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search__county {
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #aed1e6;
+  }
+  
+  .search__centreName {
+    margin-bottom: 12px;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    background-color: #aed1e6;
+  }
+  
+  .search__button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #aed1e6;
+    cursor: pointer;
+  }
+  
+  .search__button:hover {
+    filter: brightness(95%);
+  }
+  
+  .search__button:active {
+    filter: brightness(90%);
+  }
+  
+  .search__result {
+    display: none;
+    padding: 8px 16px;
+    margin: 0 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 20px;
+    overflow: auto;
+  }
+  
+  .result__center {
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #d1d1d1;
+    font-weight: 400;
+  }
+  
+  .result__detail {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .result__address {
+    display: block;
+    font-size: 18px;
+    color: #9b9999;
+  }
+  
+  .coordinates {
+    display: none;
+  }
+  
+  .result__map__link {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .search__map {
+    display: none;
+  }
+  @media screen and (min-width: 700px) {
+    button,
+    select {
+      font-size: 16px;
+    }
+  
+    .home__title {
+      font-size: 36px;
+    }
+  
+    .home__move {
+      font-size: 28px;
+    }
+  
+    .search {
+      padding: 0;
+    }
+  
+    .search .container {
+      display: flex;
+    }
+  
+    .search__main {
+      width: 100%;
+      padding: 24px;
+    }
+  
+    .search__title {
+      width: auto;
+      margin: 0 20px 50px;
+      background-color: #d9f0ff;
+      font-size: 28px;
+    }
+  
+    .fa-arrow-left {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 20px;
+      color: #0e0e52;
+      cursor: pointer;
+    }
+  
+    .search__form {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .search__option {
+      flex-direction: row;
+    }
+  
+    .search__county {
+      width: 150px;
+      margin: 0 8px 0 0;
+    }
+  
+    .search__centreName {
+      width: 300px;
+      margin: 0 36px 0 0;
+    }
+  
+    .search__button {
+      width: 80px;
+    }
+  
+    .search__result {
+      height: 400px;
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+  
+    .result__center {
+      font-size: 20px;
+    }
+  
+    .result__detail {
+      flex-direction: row;
+    }
+  
+    .result__map__link {
+      font-size: 16px;
+    }
+  
+    .search__map {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+  
+    50% {
+      opacity: 0.3;
+    }
+  
+    75% {
+      opacity: 0.8;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(10px);
+    }
+  }

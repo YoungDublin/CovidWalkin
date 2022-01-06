@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <meta
+      name="description"
+      content="Wailin Clinic In Ireland"
+    />
+    <link rel="icon" href="V.png" type="image/x-icon" />
+    <title>walk-in clinics Info</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+    <script src="./map.js" defer></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFjttKLQVfgWVxfekDmKlIuzMcxuzAvPY&callback=initMap&region=IE"
+      defer
+    ></script>
+  </head>
+  <body>
+    <section class="home">
+      <div class="container">
+         <h1 class="home__title">         
+          
+
+        <div class="division"></div>
+
+        <div class="home__move">
+          <strong class="title" aria-label="move-man">GO</strong>
+          <i class="fas fa-angle-double-down double-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="search">
+      <div class="container">
+        <div class="search__main">
+          <h1 class="search__title">
+            <i class="fas fa-arrow-left" aria-label="move_home"></i>
+            walk-in clinics💉
+          </h1>         
+          <form class="search__form">
+            <div class="search__option">
+                <select name="county" id="" class="search__county">
+                <option value="">Select County</option>
+                <option value="Carlow">Carlow</option>
+                <option value="Cavan">Cavan</option>
+                <option value="Clare" >Clare</option>
+                <option value="Cork">Cork</option>
+                <option value="Donegal">Donegal</option>
+                <option value="Dublin">Dublin</option>
+                <option value="Galway">Galway</option>
+                <option value="Kerry">Kerry</option>
+                <option value="Kildare">Kildare</option>
+                <option value="Kilkenny">Kilkenny</option>
+                <option value="Laois">Laois</option>
+                <option value="Leitrim">Leitrim</option>
+                <option value="Limerick">Limerick</option>
+                <option value="Longford">Longford</option>
+                <option value="Louth">Louth</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Meath">Meath</option>
+                <option value="Monaghan">Monaghan</option>
+                <option value="Offanly">Offanly</option>
+                <option value="Roscommon">Roscommon</option>
+                <option value="Sligo">Sligo</option>
+                <option value="Tipperary">Tipperary</option>
+                <option value="Waterford">Waterford</option>
+                <option value="Westmeath">Westmeath</option>
+                <option value="Wexford">Wexford</option>
+                <option value="Wicklow">Wicklow</option>
+              </select>
+              <select name="centreName" id="" class="search__centreName"></select>
+              </div>
+              <button type="button" class="search__button" aria-label="Search">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+
+          <ul class="search__result"></ul>
+        </div>
+
+        <div class="search__map"></div>
+      </div>
+    </section>
+  </body>
+</html>
