@@ -19,25 +19,62 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
-      rel="stylesheet"
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
     />
     <link rel="stylesheet" href="style.css" />
     <script src="./index.js" defer></script>
     <script src="./map.js" defer></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFjttKLQVfgWVxfekDmKlIuzMcxuzAvPY&callback=initMap&region=IE"
-      defer
-    ></script>
+      defer >
+    </script>  
   </head>
+
   <body>
+    <div class ="container">	
+        <img src="corona.gif">  	
+        <h1 class="title">  COVID-19 Tracker </h1>
+        </div>
+        <h2 class="subtitle">The latest statistics regarding the "Corona Virus" in Ireland</h2>
+        <h3 id="updated"> </h3>
+        
+        <div class="card-group">
+            <div class="card border-warning mx-3" style="border-radius: 10px; border: 5px solid">
+                   <div class="card-body text-warning">
+                <h5 class="card-title" >Total Cases</h5>
+                <p class="card-text" id="cases"> </p>
+              </div>		  
+            </div>
+    
+            <div class="card border-danger mx-3" style="border-radius: 10px; border: 5px solid">		 
+              <div class="card-body text-danger">
+                <h5 class="card-title" >Total Deaths</h5>
+                <p class="card-text" id="deaths"> </p>
+              </div>		 
+            </div>
+    
+            <div class="card border-success mx-3" style="border-radius: 10px; border: 5px solid">		 
+                <div class="card-body text-success ">
+                  <h5 class="card-title">Total Recovered</h5>
+                  <p class="card-text" id="recovered"> </p>
+                </div>			
+              </div>
+    
+            <div class="card border-primary mx-3" style="border-radius: 10px; border: 5px solid">		 
+              <div class="card-body text-primary">
+                <h5 class="card-title">Total Vaccinated </h5>
+                <p class="card-text"id="vaccinated"> </p>
+    
+              </div>		  
+            </div>
+          </div>
+    
+        <h1 class="footer"> Information provided by "https://corona.lmao.ninja"</a></h1>
+
     <section class="home">
       <div class="container">
-         <h1 class="home__title">         
-          
-
+         <h1 class="home__title"> 
         <div class="division"></div>
-
         <div class="home__move">
           <strong class="title" aria-label="move-man">GO</strong>
           <i class="fas fa-angle-double-down double-down"></i>
