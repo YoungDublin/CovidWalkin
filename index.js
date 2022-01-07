@@ -43,7 +43,6 @@ const CentreName = document.querySelector('.search__centreName');
 const searchBtn = document.querySelector('.search__button');
 const table = document.querySelector('.search__result');
 const mapSection = document.querySelector('.search__map');
-
 const url = `walkin.json`;
 
 let map;
