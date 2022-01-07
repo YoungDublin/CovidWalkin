@@ -28,15 +28,16 @@
     </script>  
   </head>
 
-  <body>    
+  <body>
+      
     <div class ="container1">	
-        <img class="corona" src="corona.gif">  	
-        <h1 class="title">  COVID-19 Tracker </h1>
-        </div>
-        <div class="stats">
+        <img src="corona.gif" style="max-width: 5%; height: auto;">  	
+                <h1 class="title"> COVID-19 Tracker </h1>
+        </div>       
+        <section class="stats">  
+          <div class="part1" >    
         <h2 class="subtitle">The latest statistics regarding the "Corona Virus" in Ireland</h2>
-        <h3 id="updated"> </h3>
-        
+        <h3 id="updated"> </h3>        
         <div class="card-group">
             <div class="card border-warning mx-3" style="border-radius: 10px; border: 5px solid">
                    <div class="card-body text-warning">
@@ -62,21 +63,26 @@
             <div class="card border-primary mx-3" style="border-radius: 10px; border: 5px solid">		 
               <div class="card-body text-primary">
                 <h5 class="card-title">Total Vaccinated </h5>
-                <p class="card-text"id="vaccinated"> </p>
-    
+                <p class="card-text"id="vaccinated"> </p>    
               </div>		  
             </div>
           </div>   
         <h1 class="footer"> Information provided by "https://corona.lmao.ninja"</a></h1> 
-     
-        <section class="search">
-      <div class="container">
-        <div class="search__main">
-          <h1 class="search__title">
-            <img src="vaccine.png"> 
-            COVID-19 Vaccine Booster Dose<br>Walk-in clinics
-          </h1>         
-         
+        </div>
+      </section>
+
+       
+        <section class="search">  
+          <div class ="part2">      
+            <div class="title-box">        
+              <h1 class="search__title">
+                <img src="vaccine.png"> 
+                COVID-19 Vaccine Booster Dose<br>Walk-in clinics
+              </h1>  
+              </div>  
+
+        <div class="container">       
+        <div class="search__main">         
           <form class="search__form">
             <div class="search__option">
                 <select name="county" id="" class="search__county">
@@ -109,15 +115,16 @@
                 <option value="Wicklow">Wicklow</option>
               </select>
               <select name="centreName" id="" class="search__centreName"></select>
-              </div>
+              </div><!--search__option--> 
               <button type="button" class="search__button" aria-label="Search">
               <i class="fas fa-search"></i>
             </button>
-          </form>
+          </form>                  
           <ul class="search__result"></ul>
-        </div> <!--search_main-->    
-        <div class="search__map"></div>
-      </div>
-    </section>
-  </body>
+         </div><!--search_main-->  
+        </div><!--container-->                       
+        <div class="search__map"></div>    
+      </div>  
+    </section>    
+     </body>
 </html>
