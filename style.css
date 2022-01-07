@@ -289,9 +289,12 @@ h4 {
     .result__map__link {
       font-size: 16px;
     }
-  
-    .search__map {   
+    .map-wapper {
+      width: 200%;
+    }  
 
+    .search__map {   
+      display: block;
       width: 100%;
     }
   }
