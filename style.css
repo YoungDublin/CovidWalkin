@@ -1,19 +1,21 @@
-* {
+*{
 	margin: 0;
-	padding: 0;  
+	padding: 0;   
 }
 
 body {
-    background-color:#343d46;
+   background-color:#343d46;
     position: relative;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
   }
 
-
 html {
+  background-color:#343d46;
 	height: 100%;
 	width: 100%;
 }
+
 h1 {	
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
@@ -31,7 +33,7 @@ h2 {
 	color: white;
 }
 
-.container{
+.container1{
 	display: flex;
 	justify-content: center;	
 }
@@ -41,9 +43,8 @@ display: inline-block;
 vertical-align: middle; 
 margin-top: 9px;
 text-align: center;
-height: 8%;
-width: 8%;
- object-fit: contain;
+height:5%;
+object-fit: contain;
 }
 
 .title {	
@@ -103,12 +104,8 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 	bottom: 0;
 	font-size: 100%;
-	padding: 5px;
+	margin-top: 3px;
 } 
-
-   body {
-    font-family: 'Roboto', sans-serif;    
-    }  
 
     /* search */
   .search {
