@@ -202,18 +202,7 @@ function loadCentre() {
     .then((json) => setForm(json.details));
 }
 
-function movePage() {
-  pageDown.addEventListener('click', () => {
-    searchSection.scrollIntoView({ behavior: 'smooth' });
-  });
-
-  pageBack.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-}
-
 function init() {
-  movePage();
   loadCentre();
   loadData();
   reloadMap();
