@@ -258,7 +258,7 @@ h4 {
   
     .search__county {
       width: 150px;
-      height: 40px;
+      height: 60px;
       margin: 0 8px 0 0;
     }
   
@@ -269,7 +269,8 @@ h4 {
   
     .search__button {
       width: 80px;
-      height: 40px;
+      height: 58px;
+      margin-top: 15px;
     }
   
     .search__result {
@@ -296,7 +297,8 @@ h4 {
     .search__map {   
       display: block;
       width: 100%;
-    }
+      margin-top: 220px;
+      height: 100%
   }
   
   @keyframes show {
