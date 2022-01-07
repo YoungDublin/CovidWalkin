@@ -18,7 +18,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	text-align: center;	
-  margin-top: 30px;
+  margin-top: 20px;
 	font-size: 250%;
 	color: white;
 }
@@ -39,7 +39,7 @@ h2 {
 img{
 display: inline-block;
 vertical-align: middle; 
-margin-top: 20px;
+margin-top: 13px;
 text-align: center;
 height: 8%;
  width: 8%;
@@ -107,35 +107,27 @@ h4 {
 } 
 
    body {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: -0.04em;
-  }
-  
-  button,
-  select {
-    font-family:'Roboto', sans-serif;
-    letter-spacing: -0.04em;
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-  
-  /* search */
+    font-family: 'Roboto', sans-serif;    
+    }  
+
+    /* search */
   .search {
-    height: 100vh;
-    background-color: #d9f0ff;
+    height: 600px;
+    background-color: #343d46;
   }
   
   .search .container {
     height: 100%;
-  }
-  
+    }
+
+    
   .search__title {
     padding: 12px;
-    margin-bottom: 50px;
-    background-color: #fff;
-    color: #0e0e52;
-    font-weight: 400;
-    font-size: 20px;
+    margin-bottom: 50px;   
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    
   }
   
   .fa-arrow-left {
@@ -189,7 +181,7 @@ h4 {
     padding: 8px 16px;
     margin: 0 20px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #aed1e6;
     font-size: 20px;
     overflow: auto;
   }
@@ -229,16 +221,8 @@ h4 {
     button,
     select {
       font-size: 16px;
-    }
-  
-    .home__title {
-      font-size: 36px;
-    }
-  
-    .home__move {
-      font-size: 28px;
-    }
-  
+    }  
+   
     .search {
       padding: 0;
     }
@@ -254,18 +238,10 @@ h4 {
   
     .search__title {
       width: auto;
-      margin: 0 20px 50px;
-      background-color: #d9f0ff;
+      margin: 0 0 50px;
+      background-color: #343d46;
       font-size: 28px;
-    }
-  
-    .fa-arrow-left {
-      display: block;
-      margin-bottom: 12px;
-      font-size: 20px;
-      color: #0e0e52;
-      cursor: pointer;
-    }
+    }  
   
     .search__form {
       flex-direction: row;
@@ -278,6 +254,7 @@ h4 {
   
     .search__county {
       width: 150px;
+      height: 40px;
       margin: 0 8px 0 0;
     }
   
@@ -288,6 +265,7 @@ h4 {
   
     .search__button {
       width: 80px;
+      height: 40px;
     }
   
     .search__result {
@@ -308,8 +286,8 @@ h4 {
       font-size: 16px;
     }
   
-    .search__map {
-      display: block;
+    .search__map {   
+
       width: 100%;
     }
   }
