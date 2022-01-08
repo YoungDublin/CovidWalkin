@@ -288,6 +288,7 @@ select {
 
 .search__map {
   display: none;
+  
 }
 
 @media screen{
@@ -317,7 +318,6 @@ select {
     color: #fff;
     font-weight: 700px;
   }
-
  
   .search__form {
     flex-direction: row;
@@ -365,7 +365,8 @@ select {
 
   .search__map {
     display: block;
-    width: 100%;
+    width: 150%;
+   
   }
 }
 
