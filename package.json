@@ -1,0 +1,28 @@
+{
+  "name": "iwa-ca1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungDublin/iwa-ca1.git"
+  },
+  "author": "Young Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungDublin/iwa-ca1/issues"
+  },
+  "homepage": "https://github.com/YoungDublin/iwa-ca1#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "js": "^0.1.0",
+    "path": "^0.12.7",
+    "xml2": "^0.0.10",
+    "xslt-processor": "^0.11.5"
+  }
+}
