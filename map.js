@@ -7,6 +7,6 @@ function initMap() {
   
     new google.maps.Marker({
       position: dublin,
-      map: map,
+      map: map
     });
   }
