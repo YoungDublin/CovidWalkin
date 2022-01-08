@@ -43,7 +43,7 @@ const CentreName = document.querySelector('.search__centreName');
 const searchBtn = document.querySelector('.search__button');
 const table = document.querySelector('.search__result');
 const mapSection = document.querySelector('.search__map');
-const url = `./json_data/walkin.json`;
+const url = `./data/walkin.json`;
 
 let map;
 
@@ -197,7 +197,7 @@ function setForm(data) {
 }
 
 function loadCentre() {
-  return fetch('./json_data/data.json')
+  return fetch('./data/data.json')
     .then((response) => response.json())
     .then((json) => setForm(json.details));
 }
