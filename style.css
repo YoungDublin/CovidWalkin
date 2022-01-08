@@ -76,7 +76,7 @@ object-fit: contain;
 h3 {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	font-size: 110%;
+	font-size: 90%;
 	font-weight: 500;
 	padding-top: 0%;
 	color: white;
@@ -97,7 +97,7 @@ div {
 
 .card-text {
 	text-align: center;
-	font-size: 200%;
+	font-size: 140%;
 	font-weight: 500;
 }
 
