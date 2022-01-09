@@ -4,3 +4,5 @@
 
 ### Covid19 Stats Ireland
 <img width="50%" src="https://user-images.githubusercontent.com/96786353/148699016-1c11c7b5-c98c-4f6a-8bc9-eb4ca70dfeaa.gif">
+
+### Walk-ins 
