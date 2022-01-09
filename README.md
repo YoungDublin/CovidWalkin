@@ -8,5 +8,5 @@
 ### Walk-ins 
 <img width="70%" src="https://user-images.githubusercontent.com/96786353/148699772-43f7f89a-967a-4696-a5ae-cda6c8faa450.gif">
 
-### JQuery_dropdown menu 
+### JQuery_dropdown menu_test
 <img width="40%" src="https://user-images.githubusercontent.com/96786353/148700809-a017516d-4ebd-4f18-a11d-7fc715802e9e.gif">
