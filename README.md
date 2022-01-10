@@ -1,9 +1,11 @@
 # Covid19 Walk-ins
 
 ### Setup
-1. pacake.json <img width="50%" src="https://user-images.githubusercontent.com/96786353/148739064-6f0c2241-4fb8-4caf-af1e-9364191a951a.jpg" >
+1. pacake.json 
+ <img width="30%" src="https://user-images.githubusercontent.com/96786353/148739064-6f0c2241-4fb8-4caf-af1e-9364191a951a.jpg" >
 
-2. package-lock.json <img width="50%" src="https://user-images.githubusercontent.com/96786353/148739082-8bed8f04-0e11-484e-95f3-a5b2efc6808b.jpg">
+2. package-lock.json 
+<img width="50%" src="https://user-images.githubusercontent.com/96786353/148739082-8bed8f04-0e11-484e-95f3-a5b2efc6808b.jpg">
 
 <img width="50%" src="https://user-images.githubusercontent.com/96786353/148695909-13d921de-3ddd-43e4-8920-09d292205d1d.gif">
 
